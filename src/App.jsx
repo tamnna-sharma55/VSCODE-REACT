@@ -10,7 +10,10 @@ import Nav from './Nav'
 // import Toast from './Toast'
 // import Spinner from './Spinner'
 // import Home1 from './Home1'
-import Getdata from './Getdata'
+// import Getdata from './Getdata'
+// import Createuser from "./Createuser"
+// import UserLoginWithGoogle from "./UserLoginWithGoogle"
+import Firestore from "./Firestore"
 
 
 function App() {
@@ -26,7 +29,10 @@ function App() {
    {/* <Spinner/> */}
    {/* <Controlled/> */}
    {/* <Home1/> */}
-   <Getdata/>
+   {/* <Getdata/> */}
+   {/* <Createuser/> */}
+   {/* <UserLoginWithGoogle/> */}
+   <Firestore/>
    </>
       
 // {/* <BrowserRouter>
