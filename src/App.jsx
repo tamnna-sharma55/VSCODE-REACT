@@ -13,7 +13,11 @@ import Nav from './Nav'
 // import Getdata from './Getdata'
 // import Createuser from "./Createuser"
 // import UserLoginWithGoogle from "./UserLoginWithGoogle"
-import Firestore from "./Firestore"
+// import Firestore from "./Firestore"
+// import Cloudinary from "./cloudinary"
+// import Useeffect from "./Useeffect"
+// import {create context,useContext} from 'react'
+import Child from "./Child"
 
 
 function App() {
@@ -32,7 +36,10 @@ function App() {
    {/* <Getdata/> */}
    {/* <Createuser/> */}
    {/* <UserLoginWithGoogle/> */}
-   <Firestore/>
+   {/* <Firestore/> */}
+   {/* <Cloudinary/> */}
+   {/* <Useeffect/> */}
+   <Child/>
    </>
       
 // {/* <BrowserRouter>
