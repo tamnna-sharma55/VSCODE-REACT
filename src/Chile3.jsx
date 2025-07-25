@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Chile3 = () => {
+
+const Chile3 = ({message}) => {
   return (
-    <div>Chile3</div>
+    <div>
+     <h1>{message}</h1>
+    </div>
   )
 }
 

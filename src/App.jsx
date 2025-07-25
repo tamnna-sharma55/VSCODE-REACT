@@ -1,12 +1,12 @@
 // import Home from "./Home"
 // import Child  from "./Child"
-// import Counter from "./Counter"
-import Controlled from "./cONTROLLED.JSX"
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import About from "./About"
-import Services from './Services'
-import Contacts from './Contacts'
-import Nav from './Nav'
+import Counter from "./Counter"
+// import Controlled from "./cONTROLLED.JSX"
+// import {BrowserRouter,Routes,Route} from 'react-router-dom'
+// import About from "./About"
+// import Services from './Services'
+// import Contacts from './Contacts'
+// import Nav from './Nav'
 // import Toast from './Toast'
 // import Spinner from './Spinner'
 // import Home1 from './Home1'
@@ -17,15 +17,16 @@ import Nav from './Nav'
 // import Cloudinary from "./cloudinary"
 // import Useeffect from "./Useeffect"
 // import {create context,useContext} from 'react'
-import Child from "./Child"
+// import Child from "./Child"
+
 
 
 function App() {
-//  const name={
-//   name:"ram",
-//   age:20,
-//   gender:"female"
-//  }
+ const name ={
+  name:"ram",
+  age:20,
+  gender:"female"
+ }
 
   return (
    <>
@@ -39,7 +40,9 @@ function App() {
    {/* <Firestore/> */}
    {/* <Cloudinary/> */}
    {/* <Useeffect/> */}
-   <Child/>
+   {/* <Child/> */}
+   <Counter/>
+   
    </>
       
 // {/* <BrowserRouter>

@@ -1,8 +1,12 @@
 import React from 'react'
+import Chile3 from './Chile3'
 
-const Child2 = () => {
+const Child2 = ({message}) => {
   return (
-    <div>Child2</div>
+    <div>
+      
+      <Chile3 message={message}/>
+    </div>
   )
 }
 

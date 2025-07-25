@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { app } from './Firebase';
-import { getFirestore, setDoc, doc } from "firebase/firestore";
+import { getFirestore, setDoc, doc, Firestore } from "firebase/firestore";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const db = getFirestore(app);
@@ -72,4 +72,4 @@ const Web = () => {
     );
 };
 
-export default Web;
+export default Firestore;
