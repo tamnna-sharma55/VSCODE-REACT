@@ -20,7 +20,10 @@
 // import Child from "./Child"
 // import Usememo from "./Usememo"
 // import List from "./List"
-import Object from "./Object"
+// import Object from "./Object"
+import Reducer from "./Reducer"
+import Abc from "./Abc"
+// import Demo from "./Demo"
 
 function App() {
   // const name = {
@@ -45,7 +48,11 @@ function App() {
       {/* <Counter /> */}
       {/* <Usememo /> */}
       {/* <List/> */}
-      <Object/>
+      {/* <Object/> */}
+      <Reducer/>
+      <Abc/>
+      {/* <Nav/> */}
+      {/* <Demo/> */}
 
       {/* 
       <BrowserRouter>
