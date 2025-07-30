@@ -1,71 +1,33 @@
-// import Home from "./Home"
-// import Child from "./Child"
-// import Counter from "./Counter"
-// import Controlled from "./cONTROLLED.JSX"
-// import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// import About from "./About"
-// import Services from './Services'
-// import Contacts from './Contacts'
-// import Nav from './Nav'
-// import Toast from './Toast'
-// import Spinner from './Spinner'
-// import Home1 from './Home1'
-// import Getdata from './Getdata'
-// import Createuser from "./Createuser"
-// import UserLoginWithGoogle from "./UserLoginWithGoogle"
-// import Firestore from "./Firestore"
-// import Cloudinary from "./cloudinary"
-// import Useeffect from "./Useeffect"
-// import { createContext, useContext } from 'react'
-// import Child from "./Child"
-// import Usememo from "./Usememo"
-// import List from "./List"
-// import Object from "./Object"
-import Reducer from "./Reducer"
-import Abc from "./Abc"
-// import Demo from "./Demo"
+import Home from "./Home";
+import About from "./About";
+import Services from './Services';
+import Contacts from './Contacts';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Dynamicrouting from "./Dynamicrouting";
+import Queryparameter from "./Queryparameter";
+import Relativepath from "./Relativepath";
+import Pent from "./Pent";
+import Shirt from "./Shirt";
+import Tshirt from "./Tshirt";
+import Location from "./Location"
 
 function App() {
-  // const name = {
-  //   name: "ram",
-  //   age: 20,
-  //   gender: "female"
-  // }
-
   return (
     <>
-      {/* <Toast /> */}
-      {/* <Spinner /> */}
-      {/* <Controlled /> */}
-      {/* <Home1 /> */}
-      {/* <Getdata /> */}
-      {/* <Createuser /> */}
-      {/* <UserLoginWithGoogle /> */}
-      {/* <Firestore /> */}
-      {/* <Cloudinary /> */}
-      {/* <Useeffect /> */}
-      {/* <Child /> */}
-      {/* <Counter /> */}
-      {/* <Usememo /> */}
-      {/* <List/> */}
-      {/* <Object/> */}
-      <Reducer/>
-      <Abc/>
-      {/* <Nav/> */}
-      {/* <Demo/> */}
-
-      {/* 
+      <Queryparameter />
+      
       <BrowserRouter>
-        <Nav />
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service/:id" element={<Dynamicrouting />} />
+          <Route path="/contact" element={<Contacts />} />
+          <Route path="/relative" element={<Relativepath />} />
+          <Route path="/location" element={<Location/>}/>
         </Routes>
-      </BrowserRouter> 
-      */}
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

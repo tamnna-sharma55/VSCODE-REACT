@@ -2,9 +2,17 @@ import React from 'react'
 
 const Demo = () => {
   return (
-    <div>
-        <h1 className='bg-red-800' >this is demo component</h1>
-    </div>
+    <div className="flex">
+  <div className= "flex-none w-14 ...">
+    01
+  </div>
+  <div className="flex-initial w-64 ...">
+    02
+  </div>
+  <div className="flex-initial w-32 ...">
+    03
+  </div>
+</div>
   )
 }
 
