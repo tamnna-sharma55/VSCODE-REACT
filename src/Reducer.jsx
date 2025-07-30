@@ -8,14 +8,14 @@ const Reducer = () => {
         switch(action){
             case 'increment':
                 return state+1
-                break
+                
 
             case 'decrement':
                 return state-1
-                break
+                
             case 'reset':
                 return 0
-                break
+                
             case 'default':
                 return 0    
             }
