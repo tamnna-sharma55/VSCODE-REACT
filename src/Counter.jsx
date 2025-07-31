@@ -7,14 +7,14 @@ const Counter = () => {
     const reducer = (state,action)=>{
         switch(action){
             case 'increment':
-                return state+1
+                return state+5
                 
 
             case 'decrement':
-                return state-1
+                return state-5
             
             case 'reset':
-                return 0
+                return 50
             
             case 'default':
                 return 0    

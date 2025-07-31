@@ -10,12 +10,17 @@
 // import Shirt from "./Shirt";
 // import Tshirt from "./Tshirt";
 // import Location from "./Location"
-import Counter from "./Counter";
-
+// import Counter from "./Counter";
+// import Video from "./Video";
+// import Rplayer from "./Rplayer";
+import Refexample from "./Refexample";
 function App() {
   return (
     <>
-    <Counter/>
+    {/* <Counter/> */}
+    {/* <Video/> */}
+    {/* <Rplayer/> */}
+    <Refexample/>
 
       {/* <Queryparameter />
       
