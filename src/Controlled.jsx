@@ -34,13 +34,13 @@ const Controlled = () => {
     <div>
       <form onSubmit={submitForm}>
         <label htmlFor='name'>Name: </label>
-        <input id='name' name='name' value={form.name} type='text' onChange={handleChange} /><br /><br />
+        <input id='name' name='name' placeholder="enter your name"  value={form.name} type='text' onChange={handleChange} /><br /><br />
 
         <label htmlFor='email'>Email: </label>
-        <input id='email' name='email' value={form.email} type='text' onChange={handleChange} /><br /><br />
+        <input id='email' name='email' placeholder='enter your email' value={form.email} type='text' onChange={handleChange} /><br /><br />
 
         <label htmlFor='password'>Password: </label>
-        <input id='password' name='password' value={form.password} type='text' onChange={handleChange} /><br /><br />
+        <input id='password' name='password' placeholder="enter your password" value={form.password} type='text' onChange={handleChange} /><br /><br />
 
         <button type='submit'>Save</button>
       </form>
